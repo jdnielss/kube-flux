@@ -10,7 +10,7 @@ spec:
     - host: kube.jdnielss.dev
       http:
         paths:
-          - path: /(.*)
+          - path: /
             pathType: Prefix
             backend:
               service:
